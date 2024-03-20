@@ -41,10 +41,10 @@
   top: -34px;
 }
 
-.Weather img {
+.Weather canvas {
   height: 64px;
   width: 64px;
   display: inline-block;
   position: relative;
-  top: -20px;
+  top: 10px;
 }
