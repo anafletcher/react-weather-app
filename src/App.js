@@ -6,16 +6,32 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
         <Weather defaultCity="London" />
         <footer>
-          This project was coded by Alicia Fletcher and is{" "}
+          This project was coded by{" "}
+          <a
+            href="https://github.com/anafletcher"
+            default="_blank"
+            rel="noreferrer"
+          >
+            Alicia Fletcher
+          </a>
+          , is{" "}
           <a
             href="https://updated-react-weather-app.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
             open-sourced on GitHub
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://updated-react-weather-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            hosted on Netlify
           </a>
         </footer>
       </div>

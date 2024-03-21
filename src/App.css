@@ -7,3 +7,11 @@
   font-size: 12px;
   margin: 10px auto;
 }
+
+.App a {
+  text-decoration: none;
+}
+
+.App a:hover {
+  text-decoration: underline;
+}
